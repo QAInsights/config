@@ -15,3 +15,5 @@ DOSKEY bios=WMIC BIOS Get Manufacturer,Name,Version /Format:csv
 DOSKEY ls=dir /D $*
 DOSKEY ll=dir /A $*
 DOSKEY cat=type $*
+
+DOSKEY clean=del /q/f/s %TEMP%\* ^&^& del /q/f/s %TMP%\*
